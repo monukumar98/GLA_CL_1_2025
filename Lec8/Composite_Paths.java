@@ -21,7 +21,6 @@ public class Composite_Paths {
 			adjlist.get(a).add(b);
 			adjlist.get(b).add(a);
 		}
-
 		IsPrime(n);
 		DFS(adjlist, 1, -1);
 
